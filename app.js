@@ -1,18 +1,15 @@
 // 1-masala
+let getUserInfo=(user)=>{
 
-// const { use } = require("react")
+    console.log(`Foydalanuvchi ismi: ${user["name"]}, yoshi: ${user["age"]}`);
 
-// let getUserInfo=(user)=>{
+}
+let user={
+    name:"Ali",
+    age:25,
+}
 
-//     console.log(`Foydalanuvchi ismi: ${user["name"]}, yoshi: ${user["age"]}`);
-
-// }
-// let user={
-//     name:"Ali",
-//     age:25,
-// }
-
-// getUserInfo(user)
+getUserInfo(user)
 
 // 2-masala
 
